@@ -1,0 +1,25 @@
+Dimensiones: ((40000,), (10000,), (40000,), (10000,))
+La frase tokenizada de "how are you today? Fine thank you " es: [4919, 389, 345, 1909, 30, 17867, 5875, 345]
+Al quedarnos con los primeros 5 tokens: [4919, 389, 345, 1909, 30]
+Al mostrar más tokens de los necesarios se ve como se rellena con 50256: [4919, 389, 345, 1909, 30, 17867, 5875, 345, 50256, 50256, 50256, 50256, 50256, 50256, 50256]
+Se tokeniza el dataset IMDB con un max_len de 100
+El primer elemento tokenizado es: [40, 750, 407, 2342, 262, 2104, 3807, 13, 314, 714, 407, 2342, 262, 2104, 3807, 13, 314, 5025, 262, 12490, 706, 4964, 329, 2063, 281, 1711, 290, 314, 1950, 2687, 3612, 286, 4964, 2405, 340, 2245, 2405, 878, 2263, 262, 1221, 503, 286, 262, 1339, 29847, 1671, 1220, 6927, 1671, 11037, 40, 588, 32676, 6918, 1111, 15444, 290, 9048, 475, 25567, 88, 3570, 5733, 460, 691, 307, 3417, 355, 257, 15444, 2230, 379, 257, 44371, 10997, 29847, 1671, 1220, 6927, 1671, 11037, 464, 1917, 318, 25567, 88, 3570, 5733, 2391, 8404, 1165, 1327, 284, 651, 262, 5386, 284, 6487, 11]
+El primer elemento tokenizado es: [40, 750, 407, 2342, 262, 2104, 3807, 13, 314, 714, 407, 2342, 262, 2104, 3807, 13, 314, 5025, 262, 12490, 706, 4964, 329, 2063, 281, 1711, 290, 314, 1950, 2687, 3612, 286, 4964, 2405, 340, 2245, 2405, 878, 2263, 262, 1221, 503, 286, 262, 1339, 29847, 1671, 1220, 6927, 1671, 11037, 40, 588, 32676, 6918, 1111, 15444, 290, 9048, 475, 25567, 88, 3570, 5733, 460, 691, 307, 3417, 355, 257, 15444, 2230, 379, 257, 44371, 10997, 29847, 1671, 1220, 6927, 1671, 11037, 464, 1917, 318, 25567, 88, 3570, 5733, 2391, 8404, 1165, 1327, 284, 651, 262, 5386, 284, 6487, 11]
+El elemento tras el decode es: That's what I kept asking myself during the many fights, screaming matches, swearing and general mayhem that permeate the 84 minutes. The comparisons also stand up when you think of the one-dimensional characters, who have so little depth that it is virtually impossible to care what happens to them. They are just badly written cyphers for the director to hang his multicultural beliefs on, a topic that has been done much better in other dramas both on TV and the cinema.<br /><br />I
+El tamaño del trainset es: 40000
+El tamaño del testset es: 10000
+El tamaño del tokenizer es: 50257
+El tamaño del vocab_size es: 50257
+Ejemplo de prueba
+it 0: J() = 0.5041767836332322
+it 1: J() = 0.32922322236299517
+it 2: J() = 0.2259821019589901
+it 3: J() = 0.13521376235485077
+it 4: J() = 0.08071769980839454
+it 5: J() = 0.051752125830296425
+it 6: J() = 0.031824796871701255
+it 7: J() = 0.019728666316624732
+it 8: J() = 0.017857912430298165
+it 9: J() = 0.014404017975220632
+J_test() = 0.040972271341085435
+Error = 0.8112
